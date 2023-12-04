@@ -183,7 +183,7 @@ def eda(sentence, alpha_sr=0, alpha_ri=0, alpha_rs=0, p_rd=0.1, num_aug=3, stopw
 	
 	sentence = get_only_chars(sentence)
 	words = sentence.split(' ')
-	words = [word for word in words if word is not '']
+	words = [word for word in words if word != '']
 	num_words = len(words)
 	
 	augmented_sentences = []

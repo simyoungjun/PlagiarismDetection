@@ -29,7 +29,7 @@ driver = webdriver.Chrome()
 driver.get("https://scholar.google.com/")
 
 # 검색어 입력
-search_query = "voice conversion"  # 검색할 내용을 입력하세요
+search_query = "dialogue system"  # 검색할 내용을 입력하세요
 search_box = driver.find_element(By.ID, "gs_hdr_tsi")
 search_box.send_keys(search_query)
 search_box.submit()
@@ -81,19 +81,19 @@ p_num = 0
 for title, url in paper_info_list[:]:
 
     #여기에서 논문 뽑을 사이트 정해야함. -> 나는 ieee, arxiv, sciencedirect 뽑음, URL에서 보고 저 단어 있는 페이지만 들어가서 데이터 긁어옴
-    if 'ieee' in url:
+    if 'emnlp' in url:
         driver.get(url)
         meta_element = driver.find_element(By.CSS_SELECTOR, 'meta[property="twitter:description"]') # meta[property="twitter:description"] 이부분은 학술지마다 달라서 찾아봐야됨. 나한테 어디거 쓸건지 말하면 찾아줌 
         # "content" 속성 값 가져오기
         description_content = meta_element.get_attribute("content")
     
-    elif 'arxiv' in url:
+    elif 'naacl' in url:
         driver.get(url)
         meta_element = driver.find_element(By.CSS_SELECTOR, 'meta[property="og:description"]')
         # "content" 속성 값 가져오기
         description_content = meta_element.get_attribute("content")
         
-    elif 'sciencedirect' in url:
+    elif 'acl' in url:
         driver.get(url)
         abstract_element = driver.find_element(By.XPATH, "//div[contains(@class, 'abstract')]")
         description_content = abstract_element.text

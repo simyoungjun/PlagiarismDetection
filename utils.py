@@ -48,6 +48,14 @@ def random_deletion(paragraph, rate, num_aug):
             aug_paragraphs[i] += replaced[i]
     return aug_paragraphs
 
+def mix_eda(paragraph, rate, num_aug):
+    aug_paragraphs = [' ' for i in range(num_aug)]
+    for sentence in paragraph:
+        replaced = eda.eda(sentence, alpha_sr = rate, alpha_ri = rate, alpha_rs = rate, p_rd = rate, num_aug = num_aug, stopwords = False)
+        for i in range(num_aug):
+            aug_paragraphs[i] += replaced[i]
+    return aug_paragraphs
+
 
 '''
 Adequacy: How much the paraphrase retains the meaning of the original sentence?
@@ -71,8 +79,12 @@ def paraphrase(paragraph, diversity = False, adequacy_thres = 0.9, fluency_thres
     aug_paragraphs = [' ' for i in range(num_aug)]
     for sentence in paragraph:
         replaced = parrot.augment(sentence, do_diverse=diversity, adequacy_threshold =adequacy_thres, fluency_threshold=fluency_thres, max_return_phrases = num_aug)
+        while replaced == None:
+            adequacy_thres -= 0.05
+            fluency_thres -= 0.05
+            replaced = parrot.augment(sentence, do_diverse=diversity, adequacy_threshold =adequacy_thres, fluency_threshold=fluency_thres, max_return_phrases = num_aug)
         for i in range(num_aug):
-            aug_paragraphs[i] += replaced[i]['sequence']
+            aug_paragraphs[i] += replaced[i][0]
     return aug_paragraphs
 
 def cosine_similarity(a, b):
