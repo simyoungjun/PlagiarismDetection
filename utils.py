@@ -5,15 +5,21 @@ from parrot import Parrot
 import torch
 import warnings
 import numpy as np
-
+import re
 warnings.filterwarnings("ignore")
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model = BertModel.from_pretrained("bert-base-uncased")
 
 
-def get_embedding(paragraph):   
-    return model(tokenizer(paragraph, return_tensors="pt", padding=True)['input_ids'])[0].mean(axis=1).detach().numpy()
+def get_embedding(paragraph):
+    paragraph = paragraph.lower()
+    paragraph = re.sub(r"[^a-zA-Z0-9]", " ", paragraph)
+    paragraph = tokenizer.cls_token + ' ' + paragraph + ' ' + tokenizer.sep_token
+    # input_ids = tokenizer.encode_plus(paragraph, max_length = 512, pad_to_max_length=True, truncation=True, return_tensors='pt')['input_ids']
+    input_ids = tokenizer.encode_plus(paragraph, max_length = 512, pad_to_max_length=True, truncation=True, return_tensors='pt')
+    # input_ids=torch.tensor(input_ids)
+    return model(**input_ids)[0].mean(axis=1).detach().numpy()
 
 
 

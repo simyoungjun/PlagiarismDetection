@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from utils import *
 import json
 
-with open('./data/train.json', 'r') as json_file:
+with open('./data/test.json', 'rt', encoding='UTF8') as json_file:
         dataset = json.load(json_file)
 
 # 모델 학습
