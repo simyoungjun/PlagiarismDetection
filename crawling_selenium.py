@@ -9,7 +9,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import json
 import re
-import json
 import requests
 import time
 import requests

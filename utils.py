@@ -16,6 +16,7 @@ def get_embedding(paragraph):
     return model(tokenizer(paragraph, return_tensors="pt", padding=True)['input_ids'])[0].mean(axis=1).detach().numpy()
 
 
+
 def synonym_replacement(paragraph, rate, num_aug):
     aug_paragraphs = [' ' for i in range(num_aug)]
     for sentence in paragraph:
@@ -109,3 +110,4 @@ def get_similarity(paragraph1, paragraph2, metric = 'cosine'):
         return correlation_coefficient(get_embedding(paragraph1), get_embedding(paragraph2))
     else:
         raise Exception('Invalid metric. Please choose from cosine, euclidean, correlation')
+
