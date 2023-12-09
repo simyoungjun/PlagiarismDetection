@@ -7,7 +7,6 @@ from sklearn.datasets import make_classification
 from sklearn.linear_model import LogisticRegression
 from utils import *
 import json
-from tqdm import tqdm
 
 
 
