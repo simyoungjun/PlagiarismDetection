@@ -1,49 +1,40 @@
-# Install Library
+# Plagiarism Detection with Proximity Measures and BERT
 
-```bash
-pip install nltk
+This project detects plagiarism in academic abstracts using proximity measures and a fine-tuned BERT model.
 
-python -m nltk.downloader all
+## Features
+- **Proximity Measures**: Cosine Similarity, Euclidean Distance, Correlation Coefficient
+- **BERT Classification**: Fine-tuned BERT for improved accuracy
+- **Data Augmentation**: EDA and Parrot paraphraser
+- **Threshold Optimization**: ROC-based threshold selection for proximity methods
+- **Web Crawling**: Automated data collection from Google Scholar
 
-pip install git+https://github.com/PrithivirajDamodaran/Parrot_Paraphraser.git
+---
 
-pip install transformers
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   bash```
 
-```
-
-
-
-# Background
-
-EDA 는 text augmentation 에 쓰이는 기법으로
-synonym replacement, random insertion, random deletion, random swap 총 네가지 기법으로 구성된다. 
-본 팀 프로젝트에서는 각각의 기법 (SR, RI, RD, RW) 와 함께 네가지 기법을 모두 섞은 MIX 와 parrot api를 사용하는 총 6가지 방법의 text augmentation 을 적용한다.
-
-
-
-# Data
-
-./data 내의 train.json, test.json
-
-id, title1, title2, content1, content2, is_plagiarism 으로 구성
-
-*is_plagiarism: 1 if true, 0 else
-
-id 예시1) NRF_75_RD_NRF_75_MIX: NRF 75번째 논문의 Random Deletion으로 aug 한 abstract+ mix로 aug한 abstract -> is_plagiarism: 1
-id 예시2) DS_72_DS_95: Dialogue system 72번째 논문의 original abstract와 95번째 논문의 original abstract -> is_plagiarism: 0
-
-id 예시3) NRF_51_DS_70_RD: NRF 71번째 논문의 original abstract와 DS 70번째 논문을 Random deletion으로 augmentation 한 abstract -> is_plagiarism: 0
+2. Download the BERT model:
+    python -m transformers.cli download bert-base-uncased
 
 
+## Usage
+Data Crawling
+   ```bash
+    python crawling_selenium.py
+   bash```
 
-# How to get embedding?
+Train the BERT Model
+   ```bash
+    python PDBert.py --mode train --data_dir ./data --output_dir ./output
 
-Just use *get_embedding* function in *utils.py*
+   bash```
 
-
-
-# Proximity Measurement
-
-Cosine Similarity, Euclidean Distance, Correlation Coefficient
-
-전부 다 *utils.py* 에 정의 되어 있음.
+Threshold Optimization
+   ```bash
+    python get_threshold.py
+   bash```
