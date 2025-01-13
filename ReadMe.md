@@ -19,8 +19,9 @@ This project detects plagiarism in academic abstracts using proximity measures a
    ```
 
 2. Download the BERT model:
+   ```bash
     python -m transformers.cli download bert-base-uncased
-
+   ```
 
 ## Usage
 Data Crawling
