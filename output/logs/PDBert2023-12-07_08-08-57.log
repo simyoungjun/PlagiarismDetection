@@ -1,0 +1,236 @@
+[INFO|PDBert|PDBert.py:83] 2023-12-07 08:10:20,347 > ***** Running training *****
+[INFO|PDBert|PDBert.py:88] 2023-12-07 08:10:20,348 > ##################################################Epoch: 0##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 08:14:39,573 > Train Loss: 0.03518556432372579
+[INFO|PDBert|PDBert.py:111] 2023-12-07 08:14:39,573 > Train Accuracy: 0.9873942172073342
+[INFO|PDBert|PDBert.py:112] 2023-12-07 08:14:39,573 > Train Precision: 0.9897575234669733
+[INFO|PDBert|PDBert.py:113] 2023-12-07 08:14:39,574 > Train Recall: 0.9839542920643062
+[INFO|PDBert|PDBert.py:114] 2023-12-07 08:14:39,574 > Train F1: 0.9843461703718274
+[INFO|PDBert|PDBert.py:149] 2023-12-07 08:14:39,574 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 08:14:49,917 > Valid Loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:119] 2023-12-07 08:14:49,917 > Valid Accuracy: 0.9992088607594937
+[INFO|PDBert|PDBert.py:120] 2023-12-07 08:14:49,917 > Valid Precision: 0.9989451476793247
+[INFO|PDBert|PDBert.py:121] 2023-12-07 08:14:49,917 > Valid Recall: 1.0
+[INFO|PDBert|PDBert.py:122] 2023-12-07 08:14:49,917 > Valid F1: 0.9994246260069045
+[INFO|PDBert|PDBert.py:136] 2023-12-07 08:14:49,918 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 08:14:51,026 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 08:14:51,026 > Current valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:140] 2023-12-07 08:14:51,026 > Best valid accuracy: 0.9992088607594937
+[INFO|PDBert|PDBert.py:141] 2023-12-07 08:14:51,026 > Best valid precision: 0.9989451476793247
+[INFO|PDBert|PDBert.py:142] 2023-12-07 08:14:51,026 > Best valid recall: 1.0
+[INFO|PDBert|PDBert.py:143] 2023-12-07 08:14:51,026 > Best valid f1: 0.9994246260069045
+[INFO|PDBert|PDBert.py:88] 2023-12-07 08:14:51,026 > ##################################################Epoch: 1##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 08:19:12,532 > Train Loss: 0.007860671329892955
+[INFO|PDBert|PDBert.py:111] 2023-12-07 08:19:12,537 > Train Accuracy: 0.9980606488011283
+[INFO|PDBert|PDBert.py:112] 2023-12-07 08:19:12,537 > Train Precision: 0.9974992058560463
+[INFO|PDBert|PDBert.py:113] 2023-12-07 08:19:12,537 > Train Recall: 0.9987070992007523
+[INFO|PDBert|PDBert.py:114] 2023-12-07 08:19:12,538 > Train F1: 0.9978509151439237
+[INFO|PDBert|PDBert.py:149] 2023-12-07 08:19:12,538 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 08:19:22,895 > Valid Loss: 0.007737821869698023
+[INFO|PDBert|PDBert.py:119] 2023-12-07 08:19:22,895 > Valid Accuracy: 0.9992088607594937
+[INFO|PDBert|PDBert.py:120] 2023-12-07 08:19:22,895 > Valid Precision: 0.99873417721519
+[INFO|PDBert|PDBert.py:121] 2023-12-07 08:19:22,895 > Valid Recall: 1.0
+[INFO|PDBert|PDBert.py:122] 2023-12-07 08:19:22,895 > Valid F1: 0.9992967651195499
+[INFO|PDBert|PDBert.py:136] 2023-12-07 08:19:22,896 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 08:19:23,989 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 08:19:23,989 > Current valid loss: 0.007737821869698023
+[INFO|PDBert|PDBert.py:140] 2023-12-07 08:19:23,989 > Best valid accuracy: 0.9992088607594937
+[INFO|PDBert|PDBert.py:141] 2023-12-07 08:19:23,989 > Best valid precision: 0.99873417721519
+[INFO|PDBert|PDBert.py:142] 2023-12-07 08:19:23,989 > Best valid recall: 1.0
+[INFO|PDBert|PDBert.py:143] 2023-12-07 08:19:23,989 > Best valid f1: 0.9992967651195499
+[INFO|PDBert|PDBert.py:88] 2023-12-07 08:19:23,989 > ##################################################Epoch: 2##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 08:23:44,316 > Train Loss: 0.00663799469586467
+[INFO|PDBert|PDBert.py:111] 2023-12-07 08:23:44,316 > Train Accuracy: 0.9987658674188998
+[INFO|PDBert|PDBert.py:112] 2023-12-07 08:23:44,316 > Train Precision: 0.9981282704131788
+[INFO|PDBert|PDBert.py:113] 2023-12-07 08:23:44,316 > Train Recall: 0.999279109857389
+[INFO|PDBert|PDBert.py:114] 2023-12-07 08:23:44,316 > Train F1: 0.9985980928864769
+[INFO|PDBert|PDBert.py:149] 2023-12-07 08:23:44,316 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 08:23:54,634 > Valid Loss: 0.006873216803842872
+[INFO|PDBert|PDBert.py:119] 2023-12-07 08:23:54,634 > Valid Accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:120] 2023-12-07 08:23:54,634 > Valid Precision: 0.9911392405063291
+[INFO|PDBert|PDBert.py:121] 2023-12-07 08:23:54,634 > Valid Recall: 0.9936708860759493
+[INFO|PDBert|PDBert.py:122] 2023-12-07 08:23:54,634 > Valid F1: 0.9922644163150491
+[INFO|PDBert|PDBert.py:136] 2023-12-07 08:23:54,636 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 08:23:55,755 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 08:23:55,755 > Current valid loss: 0.006873216803842872
+[INFO|PDBert|PDBert.py:140] 2023-12-07 08:23:55,755 > Best valid accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:141] 2023-12-07 08:23:55,755 > Best valid precision: 0.9911392405063291
+[INFO|PDBert|PDBert.py:142] 2023-12-07 08:23:55,755 > Best valid recall: 0.9936708860759493
+[INFO|PDBert|PDBert.py:143] 2023-12-07 08:23:55,755 > Best valid f1: 0.9922644163150491
+[INFO|PDBert|PDBert.py:88] 2023-12-07 08:23:55,755 > ##################################################Epoch: 3##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 08:28:17,878 > Train Loss: 0.010644330093141235
+[INFO|PDBert|PDBert.py:111] 2023-12-07 08:28:17,878 > Train Accuracy: 0.9977080394922426
+[INFO|PDBert|PDBert.py:112] 2023-12-07 08:28:17,878 > Train Precision: 0.9979883460842558
+[INFO|PDBert|PDBert.py:113] 2023-12-07 08:28:17,878 > Train Recall: 0.9974717454618724
+[INFO|PDBert|PDBert.py:114] 2023-12-07 08:28:17,879 > Train F1: 0.9973306744859579
+[INFO|PDBert|PDBert.py:149] 2023-12-07 08:28:17,879 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 08:28:28,215 > Valid Loss: 0.01391329351942279
+[INFO|PDBert|PDBert.py:119] 2023-12-07 08:28:28,215 > Valid Accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:120] 2023-12-07 08:28:28,215 > Valid Precision: 0.9857594936708861
+[INFO|PDBert|PDBert.py:121] 2023-12-07 08:28:28,215 > Valid Recall: 0.9841772151898734
+[INFO|PDBert|PDBert.py:122] 2023-12-07 08:28:28,215 > Valid F1: 0.9843279083785412
+[INFO|PDBert|PDBert.py:136] 2023-12-07 08:28:28,217 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 08:28:29,313 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 08:28:29,313 > Current valid loss: 0.01391329351942279
+[INFO|PDBert|PDBert.py:140] 2023-12-07 08:28:29,313 > Best valid accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:141] 2023-12-07 08:28:29,313 > Best valid precision: 0.9857594936708861
+[INFO|PDBert|PDBert.py:142] 2023-12-07 08:28:29,313 > Best valid recall: 0.9841772151898734
+[INFO|PDBert|PDBert.py:143] 2023-12-07 08:28:29,313 > Best valid f1: 0.9843279083785412
+[INFO|PDBert|PDBert.py:88] 2023-12-07 08:28:29,313 > ##################################################Epoch: 4##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 08:32:49,544 > Train Loss: 0.003328388342561597
+[INFO|PDBert|PDBert.py:111] 2023-12-07 08:32:49,544 > Train Accuracy: 0.9994710860366713
+[INFO|PDBert|PDBert.py:112] 2023-12-07 08:32:49,544 > Train Precision: 0.9991480389223689
+[INFO|PDBert|PDBert.py:113] 2023-12-07 08:32:49,544 > Train Recall: 0.9998717784331325
+[INFO|PDBert|PDBert.py:114] 2023-12-07 08:32:49,544 > Train F1: 0.9994758599255404
+[INFO|PDBert|PDBert.py:149] 2023-12-07 08:32:49,544 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 08:32:59,889 > Valid Loss: 0.0068821199748538365
+[INFO|PDBert|PDBert.py:119] 2023-12-07 08:32:59,889 > Valid Accuracy: 0.9992088607594937
+[INFO|PDBert|PDBert.py:120] 2023-12-07 08:32:59,889 > Valid Precision: 0.99873417721519
+[INFO|PDBert|PDBert.py:121] 2023-12-07 08:32:59,889 > Valid Recall: 1.0
+[INFO|PDBert|PDBert.py:122] 2023-12-07 08:32:59,890 > Valid F1: 0.9992967651195499
+[INFO|PDBert|PDBert.py:136] 2023-12-07 08:32:59,891 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 08:33:01,020 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 08:33:01,020 > Current valid loss: 0.0068821199748538365
+[INFO|PDBert|PDBert.py:140] 2023-12-07 08:33:01,020 > Best valid accuracy: 0.9992088607594937
+[INFO|PDBert|PDBert.py:141] 2023-12-07 08:33:01,020 > Best valid precision: 0.99873417721519
+[INFO|PDBert|PDBert.py:142] 2023-12-07 08:33:01,020 > Best valid recall: 1.0
+[INFO|PDBert|PDBert.py:143] 2023-12-07 08:33:01,020 > Best valid f1: 0.9992967651195499
+[INFO|PDBert|PDBert.py:88] 2023-12-07 08:33:01,020 > ##################################################Epoch: 5##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 08:37:19,263 > Train Loss: 0.0024716229192707005
+[INFO|PDBert|PDBert.py:111] 2023-12-07 08:37:19,263 > Train Accuracy: 0.9996473906911142
+[INFO|PDBert|PDBert.py:112] 2023-12-07 08:37:19,263 > Train Precision: 0.999395526899053
+[INFO|PDBert|PDBert.py:113] 2023-12-07 08:37:19,263 > Train Recall: 0.9998236953455572
+[INFO|PDBert|PDBert.py:114] 2023-12-07 08:37:19,263 > Train F1: 0.9995804853350693
+[INFO|PDBert|PDBert.py:149] 2023-12-07 08:37:19,263 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 08:37:29,690 > Valid Loss: 0.013753925657879394
+[INFO|PDBert|PDBert.py:119] 2023-12-07 08:37:29,690 > Valid Accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:120] 2023-12-07 08:37:29,690 > Valid Precision: 0.990506329113924
+[INFO|PDBert|PDBert.py:121] 2023-12-07 08:37:29,690 > Valid Recall: 0.9924050632911393
+[INFO|PDBert|PDBert.py:122] 2023-12-07 08:37:29,690 > Valid F1: 0.990857946554149
+[INFO|PDBert|PDBert.py:136] 2023-12-07 08:37:29,691 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 08:37:30,781 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 08:37:30,781 > Current valid loss: 0.013753925657879394
+[INFO|PDBert|PDBert.py:140] 2023-12-07 08:37:30,781 > Best valid accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:141] 2023-12-07 08:37:30,781 > Best valid precision: 0.990506329113924
+[INFO|PDBert|PDBert.py:142] 2023-12-07 08:37:30,781 > Best valid recall: 0.9924050632911393
+[INFO|PDBert|PDBert.py:143] 2023-12-07 08:37:30,781 > Best valid f1: 0.990857946554149
+[INFO|PDBert|PDBert.py:88] 2023-12-07 08:37:30,781 > ##################################################Epoch: 6##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 08:41:50,285 > Train Loss: 0.004258962517390119
+[INFO|PDBert|PDBert.py:111] 2023-12-07 08:41:50,286 > Train Accuracy: 0.999206629055007
+[INFO|PDBert|PDBert.py:112] 2023-12-07 08:41:50,286 > Train Precision: 0.9987932417057946
+[INFO|PDBert|PDBert.py:113] 2023-12-07 08:41:50,286 > Train Recall: 0.9996574652427968
+[INFO|PDBert|PDBert.py:114] 2023-12-07 08:41:50,286 > Train F1: 0.9991733925115874
+[INFO|PDBert|PDBert.py:149] 2023-12-07 08:41:50,286 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 08:42:00,648 > Valid Loss: 0.00844628659560149
+[INFO|PDBert|PDBert.py:119] 2023-12-07 08:42:00,648 > Valid Accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:120] 2023-12-07 08:42:00,648 > Valid Precision: 0.9862869198312235
+[INFO|PDBert|PDBert.py:121] 2023-12-07 08:42:00,648 > Valid Recall: 0.9857594936708861
+[INFO|PDBert|PDBert.py:122] 2023-12-07 08:42:00,648 > Valid F1: 0.985862239026796
+[INFO|PDBert|PDBert.py:136] 2023-12-07 08:42:00,649 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 08:42:01,745 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 08:42:01,745 > Current valid loss: 0.00844628659560149
+[INFO|PDBert|PDBert.py:140] 2023-12-07 08:42:01,746 > Best valid accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:141] 2023-12-07 08:42:01,746 > Best valid precision: 0.9862869198312235
+[INFO|PDBert|PDBert.py:142] 2023-12-07 08:42:01,746 > Best valid recall: 0.9857594936708861
+[INFO|PDBert|PDBert.py:143] 2023-12-07 08:42:01,746 > Best valid f1: 0.985862239026796
+[INFO|PDBert|PDBert.py:88] 2023-12-07 08:42:01,746 > ##################################################Epoch: 7##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 08:46:26,820 > Train Loss: 0.002752548540904072
+[INFO|PDBert|PDBert.py:111] 2023-12-07 08:46:26,820 > Train Accuracy: 0.9994710860366713
+[INFO|PDBert|PDBert.py:112] 2023-12-07 08:46:26,820 > Train Precision: 0.9990999558347936
+[INFO|PDBert|PDBert.py:113] 2023-12-07 08:46:26,820 > Train Recall: 0.9998717784331325
+[INFO|PDBert|PDBert.py:114] 2023-12-07 08:46:26,820 > Train F1: 0.9994489944543873
+[INFO|PDBert|PDBert.py:149] 2023-12-07 08:46:26,820 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 08:46:37,151 > Valid Loss: 0.01361753838357834
+[INFO|PDBert|PDBert.py:119] 2023-12-07 08:46:37,151 > Valid Accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:120] 2023-12-07 08:46:37,151 > Valid Precision: 0.990506329113924
+[INFO|PDBert|PDBert.py:121] 2023-12-07 08:46:37,151 > Valid Recall: 0.9926160337552743
+[INFO|PDBert|PDBert.py:122] 2023-12-07 08:46:37,151 > Valid F1: 0.9909858074415036
+[INFO|PDBert|PDBert.py:136] 2023-12-07 08:46:37,152 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 08:46:38,258 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 08:46:38,258 > Current valid loss: 0.01361753838357834
+[INFO|PDBert|PDBert.py:140] 2023-12-07 08:46:38,258 > Best valid accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:141] 2023-12-07 08:46:38,258 > Best valid precision: 0.990506329113924
+[INFO|PDBert|PDBert.py:142] 2023-12-07 08:46:38,258 > Best valid recall: 0.9926160337552743
+[INFO|PDBert|PDBert.py:143] 2023-12-07 08:46:38,258 > Best valid f1: 0.9909858074415036
+[INFO|PDBert|PDBert.py:88] 2023-12-07 08:46:38,258 > ##################################################Epoch: 8##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 08:51:01,354 > Train Loss: 0.0036142328014156923
+[INFO|PDBert|PDBert.py:111] 2023-12-07 08:51:01,354 > Train Accuracy: 0.99938293370945
+[INFO|PDBert|PDBert.py:112] 2023-12-07 08:51:01,355 > Train Precision: 0.9987943611004261
+[INFO|PDBert|PDBert.py:113] 2023-12-07 08:51:01,355 > Train Recall: 0.9998717784331325
+[INFO|PDBert|PDBert.py:114] 2023-12-07 08:51:01,355 > Train F1: 0.9992759971022646
+[INFO|PDBert|PDBert.py:149] 2023-12-07 08:51:01,355 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 08:51:11,704 > Valid Loss: 0.009933853331570885
+[INFO|PDBert|PDBert.py:119] 2023-12-07 08:51:11,704 > Valid Accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:120] 2023-12-07 08:51:11,704 > Valid Precision: 0.9920886075949367
+[INFO|PDBert|PDBert.py:121] 2023-12-07 08:51:11,704 > Valid Recall: 0.9924050632911393
+[INFO|PDBert|PDBert.py:122] 2023-12-07 08:51:11,704 > Valid F1: 0.9920634920634921
+[INFO|PDBert|PDBert.py:136] 2023-12-07 08:51:11,706 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 08:51:12,800 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 08:51:12,800 > Current valid loss: 0.009933853331570885
+[INFO|PDBert|PDBert.py:140] 2023-12-07 08:51:12,800 > Best valid accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:141] 2023-12-07 08:51:12,800 > Best valid precision: 0.9920886075949367
+[INFO|PDBert|PDBert.py:142] 2023-12-07 08:51:12,800 > Best valid recall: 0.9924050632911393
+[INFO|PDBert|PDBert.py:143] 2023-12-07 08:51:12,800 > Best valid f1: 0.9920634920634921
+[INFO|PDBert|PDBert.py:88] 2023-12-07 08:51:12,800 > ##################################################Epoch: 9##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 08:55:36,067 > Train Loss: 0.002120972996558861
+[INFO|PDBert|PDBert.py:111] 2023-12-07 08:55:36,067 > Train Accuracy: 0.9997355430183357
+[INFO|PDBert|PDBert.py:112] 2023-12-07 08:55:36,067 > Train Precision: 0.999524257281662
+[INFO|PDBert|PDBert.py:113] 2023-12-07 08:55:36,067 > Train Recall: 1.0
+[INFO|PDBert|PDBert.py:114] 2023-12-07 08:55:36,067 > Train F1: 0.9997472145737596
+[INFO|PDBert|PDBert.py:149] 2023-12-07 08:55:36,067 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 08:55:46,411 > Valid Loss: 0.011362363358186278
+[INFO|PDBert|PDBert.py:119] 2023-12-07 08:55:46,411 > Valid Accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:120] 2023-12-07 08:55:46,411 > Valid Precision: 0.9926160337552743
+[INFO|PDBert|PDBert.py:121] 2023-12-07 08:55:46,411 > Valid Recall: 0.9924050632911393
+[INFO|PDBert|PDBert.py:122] 2023-12-07 08:55:46,411 > Valid F1: 0.9923922772024037
+[INFO|PDBert|PDBert.py:136] 2023-12-07 08:55:46,412 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 08:55:47,505 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 08:55:47,505 > Current valid loss: 0.011362363358186278
+[INFO|PDBert|PDBert.py:140] 2023-12-07 08:55:47,505 > Best valid accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:141] 2023-12-07 08:55:47,505 > Best valid precision: 0.9926160337552743
+[INFO|PDBert|PDBert.py:142] 2023-12-07 08:55:47,505 > Best valid recall: 0.9924050632911393
+[INFO|PDBert|PDBert.py:143] 2023-12-07 08:55:47,505 > Best valid f1: 0.9923922772024037
+[INFO|PDBert|PDBert.py:88] 2023-12-07 08:55:47,505 > ##################################################Epoch: 10##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 09:00:10,791 > Train Loss: 0.0019287879091197948
+[INFO|PDBert|PDBert.py:111] 2023-12-07 09:00:10,791 > Train Accuracy: 0.9997355430183357
+[INFO|PDBert|PDBert.py:112] 2023-12-07 09:00:10,791 > Train Precision: 0.9994604009060991
+[INFO|PDBert|PDBert.py:113] 2023-12-07 09:00:10,791 > Train Recall: 1.0
+[INFO|PDBert|PDBert.py:114] 2023-12-07 09:00:10,791 > Train F1: 0.9997105856062133
+[INFO|PDBert|PDBert.py:149] 2023-12-07 09:00:10,791 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 09:00:21,140 > Valid Loss: 0.014669196660064169
+[INFO|PDBert|PDBert.py:119] 2023-12-07 09:00:21,140 > Valid Accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:120] 2023-12-07 09:00:21,140 > Valid Precision: 0.9978902953586499
+[INFO|PDBert|PDBert.py:121] 2023-12-07 09:00:21,140 > Valid Recall: 0.9978902953586499
+[INFO|PDBert|PDBert.py:122] 2023-12-07 09:00:21,140 > Valid F1: 0.9974683544303797
+[INFO|PDBert|PDBert.py:136] 2023-12-07 09:00:21,141 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 09:00:22,230 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 09:00:22,230 > Current valid loss: 0.014669196660064169
+[INFO|PDBert|PDBert.py:140] 2023-12-07 09:00:22,230 > Best valid accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:141] 2023-12-07 09:00:22,230 > Best valid precision: 0.9978902953586499
+[INFO|PDBert|PDBert.py:142] 2023-12-07 09:00:22,230 > Best valid recall: 0.9978902953586499
+[INFO|PDBert|PDBert.py:143] 2023-12-07 09:00:22,230 > Best valid f1: 0.9974683544303797
+[INFO|PDBert|PDBert.py:88] 2023-12-07 09:00:22,230 > ##################################################Epoch: 11##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 09:04:42,796 > Train Loss: 0.0018109126403236823
+[INFO|PDBert|PDBert.py:111] 2023-12-07 09:04:42,796 > Train Accuracy: 0.9997355430183357
+[INFO|PDBert|PDBert.py:112] 2023-12-07 09:04:42,796 > Train Precision: 0.9993535496003763
+[INFO|PDBert|PDBert.py:113] 2023-12-07 09:04:42,796 > Train Recall: 1.0
+[INFO|PDBert|PDBert.py:114] 2023-12-07 09:04:42,797 > Train F1: 0.9996495277172287
+[INFO|PDBert|PDBert.py:149] 2023-12-07 09:04:42,797 > ***** Running validation *****
+[INFO|PDBert|PDBert.py:118] 2023-12-07 09:04:53,148 > Valid Loss: 0.013884164705434413
+[INFO|PDBert|PDBert.py:119] 2023-12-07 09:04:53,148 > Valid Accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:120] 2023-12-07 09:04:53,148 > Valid Precision: 0.9989451476793247
+[INFO|PDBert|PDBert.py:121] 2023-12-07 09:04:53,148 > Valid Recall: 0.99873417721519
+[INFO|PDBert|PDBert.py:122] 2023-12-07 09:04:53,148 > Valid F1: 0.9987213911264544
+[INFO|PDBert|PDBert.py:136] 2023-12-07 09:04:53,149 > ***** Best model saved at ./output/PDBert.ckpt *****
+[INFO|PDBert|PDBert.py:138] 2023-12-07 09:04:54,240 > Best valid loss: 0.006412282365792773
+[INFO|PDBert|PDBert.py:139] 2023-12-07 09:04:54,240 > Current valid loss: 0.013884164705434413
+[INFO|PDBert|PDBert.py:140] 2023-12-07 09:04:54,240 > Best valid accuracy: 0.9984177215189873
+[INFO|PDBert|PDBert.py:141] 2023-12-07 09:04:54,240 > Best valid precision: 0.9989451476793247
+[INFO|PDBert|PDBert.py:142] 2023-12-07 09:04:54,240 > Best valid recall: 0.99873417721519
+[INFO|PDBert|PDBert.py:143] 2023-12-07 09:04:54,240 > Best valid f1: 0.9987213911264544
+[INFO|PDBert|PDBert.py:88] 2023-12-07 09:04:54,240 > ##################################################Epoch: 12##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 09:09:16,179 > Train Loss: 0.0021143866099358672
+[INFO|PDBert|PDBert.py:111] 2023-12-07 09:09:16,179 > Train Accuracy: 0.9996473906911142
+[INFO|PDBert|PDBert.py:112] 2023-12-07 09:09:16,179 > Train Precision: 0.9994828396803008
+[INFO|PDBert|PDBert.py:113] 2023-12-07 09:09:16,179 > Train Recall: 0.9998589562764457
+[INFO|PDBert|PDBert.py:114] 2023-12-07 09:09:16,179 > Train F1: 0.9996490778169941
+[INFO|PDBert|PDBert.py:149] 2023-12-07 09:09:16,179 > ***** Running validation *****

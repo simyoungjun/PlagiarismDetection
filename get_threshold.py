@@ -71,6 +71,7 @@ for i, data in enumerate(tqdm(dataset)):
 
 
 #%
+from sklearn.metrics import f1_score
 scores_dict = {}
 for np_path in ['y_cosine', 'y_euclidean', 'y_corr', 'y_test']:
     scores_dict[np_path] = np.load('./train_scores/'+np_path+'.npy')
@@ -85,7 +86,6 @@ for y_prob, metric in zip([y_cosine, y_corr, y_euclidean],['Cosine', 'Corr', 'Eu
         y_test = [1 if item == 0 else 0 for item in y_test]
     
     roc_auc = roc_auc_score(y_test, y_prob)
-
     # ROC 곡선을 계산
     fpr, tpr, thresholds = roc_curve(y_test, y_prob)
     optimal_threshold = thresholds[np.argmax(tpr - fpr)]
@@ -94,6 +94,8 @@ for y_prob, metric in zip([y_cosine, y_corr, y_euclidean],['Cosine', 'Corr', 'Eu
     # 정확도 계산
     y_pred = (y_prob >= optimal_threshold).astype(int)
     accuracy = accuracy_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred)
+    
     # ROC 곡선 그리기
     plt.figure(figsize=(8, 6))
     plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = %0.3f)' % roc_auc)
@@ -106,7 +108,7 @@ for y_prob, metric in zip([y_cosine, y_corr, y_euclidean],['Cosine', 'Corr', 'Eu
     plt.ylim([0.0, 1.05])
     plt.xlabel('False Positive Rate')
     plt.ylabel('True Positive Rate')
-    plt.title(metric+' ROC Curve (ACC: '+f"{accuracy: .3f}"+',  AUC: '+f"{accuracy: .3f}"+')')
+    plt.title(metric+' ROC Curve (ACC: '+f"{accuracy: .3f}"+',  AUC: '+f"{roc_auc: .3f}"+',  F1: '+f"{f1: .3f}"+')')
     plt.legend(loc='lower right')
 
     # AUC 값 출력
@@ -144,3 +146,4 @@ for y_prob, metric, optimal_threshold in zip([y_cosine, y_corr, y_euclidean],['C
     #틀린 샘플의 idx
     wrong_indices = np.where(y_pred != y_test)[0]
     
+#%

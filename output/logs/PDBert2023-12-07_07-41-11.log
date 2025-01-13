@@ -1,0 +1,8 @@
+[INFO|PDBert|PDBert.py:83] 2023-12-07 07:42:52,346 > ***** Running training *****
+[INFO|PDBert|PDBert.py:88] 2023-12-07 07:42:52,346 > ##################################################Epoch: 0##################################################
+[INFO|PDBert|PDBert.py:110] 2023-12-07 07:47:12,887 > Train Loss: 0.03724794230719914
+[INFO|PDBert|PDBert.py:111] 2023-12-07 07:47:12,887 > Train Accuracy: 0.991361071932299
+[INFO|PDBert|PDBert.py:112] 2023-12-07 07:47:12,887 > Train Precision: 0.9922637971650664
+[INFO|PDBert|PDBert.py:113] 2023-12-07 07:47:12,887 > Train Recall: 0.9922889992001417
+[INFO|PDBert|PDBert.py:114] 2023-12-07 07:47:12,887 > Train F1: 0.9909715710158273
+[INFO|PDBert|PDBert.py:149] 2023-12-07 07:47:12,887 > ***** Running validation *****
