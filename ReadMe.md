@@ -16,7 +16,7 @@ This project detects plagiarism in academic abstracts using proximity measures a
    ```bash
    git clone <repository-url>
    cd <repository-folder>
-   bash```
+   ```
 
 2. Download the BERT model:
     python -m transformers.cli download bert-base-uncased
@@ -26,15 +26,15 @@ This project detects plagiarism in academic abstracts using proximity measures a
 Data Crawling
    ```bash
     python crawling_selenium.py
-   bash```
+   ```
 
 Train the BERT Model
    ```bash
     python PDBert.py --mode train --data_dir ./data --output_dir ./output
 
-   bash```
+   ```
 
 Threshold Optimization
    ```bash
     python get_threshold.py
-   bash```
+   ```
