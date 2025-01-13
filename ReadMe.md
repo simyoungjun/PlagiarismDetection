@@ -10,7 +10,20 @@ This project detects plagiarism in academic abstracts using proximity measures a
 - **Web Crawling**: Automated data collection from Google Scholar
 
 ---
+## Results
 
+### Visual Results
+#### 1. Analysis Overview
+<p align="center">
+  <img src="images/analysis.png" alt="Analysis Overview" style="width:70%;">
+</p>
+
+#### 2. ROC Curves
+<p align="center">
+  <img src="images/roc_curves.png" alt="ROC Curves" style="width:70%;">
+</p>
+
+---
 ## Installation
 1. Clone the repository:
    ```bash
