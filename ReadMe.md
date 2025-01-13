@@ -3,24 +3,24 @@
 This project detects plagiarism in academic abstracts using proximity measures and a fine-tuned BERT model.
 
 ## Features
-- **Proximity Measures**: Cosine Similarity, Euclidean Distance, Correlation Coefficient
-- **BERT Classification**: Fine-tuned BERT for improved accuracy
-- **Data Augmentation**: EDA and Parrot paraphraser
-- **Threshold Optimization**: ROC-based threshold selection for proximity methods
 - **Web Crawling**: Automated data collection from Google Scholar
+- **Data Augmentation**: EDA and Parrot paraphraser
+- **BERT Classification**: Fine-tuned BERT for improved accuracy
+- **Threshold Optimization**: ROC-based threshold selection for proximity methods
+- **Proximity Measures**: Cosine Similarity, Euclidean Distance, Correlation Coefficient
 
 ---
 ## Results
 
 ### Visual Results
-#### 1. Analysis Overview
-<p align="center">
-  <img src="images/analysis.png" alt="Analysis Overview" style="width:70%;">
-</p>
-
-#### 2. ROC Curves
+#### 1. ROC Curves
 <p align="center">
   <img src="images/roc_curves.png" alt="ROC Curves" style="width:70%;">
+</p>
+
+#### 2. Analysis Overview
+<p align="center">
+  <img src="images/analysis.png" alt="Analysis Overview" style="width:70%;">
 </p>
 
 ---
