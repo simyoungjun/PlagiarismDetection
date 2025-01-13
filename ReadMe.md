@@ -1,6 +1,6 @@
 # Plagiarism Detection with Proximity Measures and BERT
 
-This project detects plagiarism in academic abstracts using proximity measures and a fine-tuned BERT model.
+This project detects plagiarism in academic abstracts using proximity-based metrics and a fine-tuned BERT model for enhanced accuracy. A dataset of 12,600 pairs, generated through text augmentation, enables robust evaluation of these methods. The analysis highlights the strengths and limitations of proximity metrics and BERT in plagiarism detection.
 
 ## Features
 - **Web Crawling**: Automated data collection from Google Scholar
